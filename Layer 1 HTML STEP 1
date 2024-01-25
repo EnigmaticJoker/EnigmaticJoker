@@ -1,13 +1,21 @@
+
+Michael Ranger <mranger546@gmail.com>
+5:02 PM (1 hour ago)
+to me
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Chess Board</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="chess-board" id="board"></div>
-  <script src="script.js"></script>
+    <div id="board1" class="chessboard"></div>
+    
+    <script src="https://unpkg.com/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.js"></script>
+    <script src="chess.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
